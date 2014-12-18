@@ -1,3 +1,8 @@
+//Copyright © 2014 Fred Mariowitsch Flügge <fmfluegge@gmail.com>
+//This work is free. You can redistribute it and/or modify it under the
+//terms of the Do What The Fuck You Want To Public License, Version 2,
+//as published by Sam Hocevar. See http://www.wtfpl.net/ for more details.
+
 #ifndef STOPWATCH_H
 #define STOPWATCH_H
 
@@ -7,6 +12,7 @@
 #include <chrono>
 namespace ch = std::chrono;
 
+//todo, average for multiple uses, on every stopClock()
 /*
  formula and proof, revursive time average
  http://people.revoledu.com/kardi/tutorial/RecursiveStatistic/Time-Average.htm
